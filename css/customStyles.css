@@ -1,0 +1,195 @@
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0069d9;
+  }
+
+
+  .con{
+    width: 95%;
+    margin: 0 auto;
+ }
+ @media (max-width: 630px) {
+  .con{
+    width: 90%;
+    margin: 0 auto;
+ }
+}
+
+  .why-choose-us {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .why-choose-us h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  .why-choose-us p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  .why-choose-us .fa {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  .why-choose-us .fa:hover {
+    color: #007bff;
+  }
+  .why-choose-us .feature {
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+  .why-choose-us .feature h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  .why-choose-us .feature p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 0;
+  }
+
+
+  /* Specialities section */
+#specialities {
+  padding: 50px 0;
+}
+
+#specialities h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+}
+
+#specialities .row {
+  margin-top: 30px;
+}
+
+#specialities .card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+#specialities .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#specialities .card i {
+  color: #27ae60;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#specialities .card h4 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #specialities .col-md-2 {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 630px) {
+  #specialities .col-md-2 {
+    width: 50%;
+  }
+}
+#schedule-demo{
+  margin-bottom: 5%;
+}
+#schedule-demo h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#schedule-demo form {
+  margin-top: 30px;
+}
+
+#schedule-demo form label {
+  font-weight: bold;
+}
+
+#schedule-demo form textarea {
+  resize: vertical;
+}
+
+@media (max-width: 992px) {
+  #schedule-demo .col-md-6 {
+    width: 100%;
+  }
+}
+
+#schedule-demo {
+  /* background-color: #f5f5f5; */
+  padding: 80px 0;
+}
+
+#schedule-demo h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+ .img{
+  height: 400px;
+
+}
+#schedule-demo form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+#schedule-demo form label {
+  font-weight: bold;
+}
+
+#schedule-demo form textarea {
+  resize: vertical;
+}
+
+#schedule-demo button[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+
+
+
